@@ -13,8 +13,8 @@ function Header() {
 
   return (
     <div className="flex p-4 items-center justify-between bg-secondary shadow-md">
-      <Link href="/" className="text-2xl font-bold text-primary">
-        MockVue
+      <Link href="/" className="text-xl font-bold text-primary">
+        Mockvue
       </Link>
       <ul className="hidden md:flex gap-6">
         <li
