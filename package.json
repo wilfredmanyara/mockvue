@@ -7,13 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "db:push":"npx drizzle-kit push",
-    "db:studio":"npx drizzle-kit studio"
+    "db:push": "npx drizzle-kit push",
+    "db:studio": "npx drizzle-kit studio"
   },
   "dependencies": {
     "@clerk/elements": "^0.16.0",
     "@clerk/nextjs": "^5.7.2",
     "@neondatabase/serverless": "^0.10.1",
+    "@radix-ui/react-dialog": "^1.1.2",
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
