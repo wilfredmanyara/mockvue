@@ -14,7 +14,7 @@ function QuestionSection({ mockInterviewQuestion, activeQuestionIndex }) {
     }
   return (
     mockInterviewQuestion && (
-      <div className="p-5 border rounded-lg my-10">
+      <div className="p-5 border rounded-lg my-5">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
           {mockInterviewQuestion &&
             mockInterviewQuestion.map((question, index) => (
