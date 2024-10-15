@@ -31,7 +31,7 @@ export default function SignInPage() {
           <div className="hidden lg:relative lg:block lg:p-12">
 
             <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
-              MockVue
+              Mockvue
             </h2>
 
             <p className="mt-4 leading-relaxed text-white/90">
@@ -45,7 +45,7 @@ export default function SignInPage() {
           <div className="max-w-xl lg:max-w-3xl">
             <div className="relative block lg:hidden">
               <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-                MockVue
+                Mockvue
               </h1>
 
               <p className="mt-4 mb-4 leading-relaxed text-gray-500">
@@ -144,10 +144,7 @@ export default function SignInPage() {
                 <SignIn.Strategy name="password">
                   <Card className="w-full sm:w-96">
                     <CardHeader>
-                      <CardTitle>Check your email</CardTitle>
-                      <CardDescription>
-                        Enter the verification code sent to your email
-                      </CardDescription>
+                      <CardTitle>Mockvue</CardTitle>
                       <p className="text-sm text-muted-foreground">
                         Welcome back <SignIn.SafeIdentifier />
                       </p>

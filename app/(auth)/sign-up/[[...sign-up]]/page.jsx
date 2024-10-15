@@ -30,7 +30,7 @@ export default function SignUpPage() {
 
           <div className="hidden lg:relative lg:block lg:p-12">
             <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
-              MockVue
+              Mockvue
             </h2>
 
             <p className="mt-4 leading-relaxed text-white/90">
@@ -44,7 +44,7 @@ export default function SignUpPage() {
           <div className="max-w-xl lg:max-w-3xl">
             <div className="relative block lg:hidden">
               <h1 className="text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-                MockVue
+                Mockvue
               </h1>
 
               <p className="mt-4 mb-4 leading-relaxed text-gray-500">
