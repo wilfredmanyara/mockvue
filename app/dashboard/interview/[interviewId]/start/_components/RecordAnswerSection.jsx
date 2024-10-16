@@ -59,11 +59,13 @@ function RecordAnswerSection({
 
   const UpdateUserAnswer = async () => {
 
+    const questions = Array.isArray(mockInterviewQuestion) ? mockInterviewQuestion : [];
+
     console.log(userAnswer)
     setLoading(true);
     const feedbackPrompt =
         "Question:" +
-        mockInterviewQuestion[activeQuestionIndex]?.Question +
+        questions[activeQuestionIndex]?.question +
         ", User Answer:" +
         userAnswer +
         ", Depends on question and user answer for given interview question " +
@@ -83,8 +85,8 @@ function RecordAnswerSection({
       .insert(UserAnswer)
       .values({
         mockIdRef: interviewData?.mockId,
-        question: mockInterviewQuestion[activeQuestionIndex]?.Question,
-        correctAns: mockInterviewQuestion[activeQuestionIndex]?.Answer,
+        question: questions[activeQuestionIndex]?.question,
+        correctAns: questions[activeQuestionIndex]?.Answer,
         userAns: userAnswer,
         feedback: JsonFeedbackResp?.feedback,
         rating: JsonFeedbackResp?.rating,
